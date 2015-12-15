@@ -1,0 +1,36 @@
+ham	foo
+spam	hoge
+ham	bar
+spam	fuga
+ham	baz
+spam	piyo
+ham	foo bar
+spam	hoge fuga
+ham	bar baz
+spam	fuga piyo
+ham	baz foo
+spam	piyo hoge
+ham	foo
+spam	hoge
+ham	bar
+spam	fuga
+ham	baz
+spam	piyo
+ham	foo bar
+spam	hoge fuga
+ham	bar baz
+spam	fuga piyo
+ham	baz foo
+spam	piyo hoge
+ham	foo
+spam	hoge
+ham	bar
+spam	fuga
+ham	baz
+spam	piyo
+ham	foo bar
+spam	hoge fuga
+ham	bar baz
+spam	fuga piyo
+ham	baz foo
+spam	piyo hoge
