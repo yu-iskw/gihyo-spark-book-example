@@ -14,6 +14,15 @@ matrix:
     - jdk: oraclejdk8
       scala: 2.11.7
       env: TEST_SPARK_VERSION="1.6.1"
+    - jdk: openjdk7
+      scala: 2.10.6
+      env: TEST_SPARK_VERSION="2.0.0"
+    - jdk: oraclejdk7
+      scala: 2.10.6
+      env: TEST_SPARK_VERSION="2.0.0"
+    - jdk: oraclejdk8
+      scala: 2.11.7
+      env: TEST_SPARK_VERSION="2.0.0"
 script:
   - sbt -Dspark.testVersion=$TEST_SPARK_VERSION ++$TRAVIS_SCALA_VERSION coverage test
   - sbt ++$TRAVIS_SCALA_VERSION scalastyle
